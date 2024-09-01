@@ -1,0 +1,65 @@
+/* 공통 */
+:root {
+  background-color: rgb(222, 239, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem;
+  border: 0.1rem solid black;
+  background-color: rgb(101, 190, 241);
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+/* section - list */
+#lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists__todo {
+  width: 70%;
+  border-color: transparent;
+}
+
+.delete {
+  background-color: rgb(240, 144, 152);
+  border: 0.1rem solid rgb(160, 118, 129);
+}
+
+/* section - submit */
+#submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#write {
+  width: 70%;
+}
+
+#save {
+  background-color: rgb(100, 138, 219);
+  border: 0.1rem solid rgb(54, 94, 182);
+}

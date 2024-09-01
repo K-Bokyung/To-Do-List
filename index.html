@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./src/main.js"></script>
+    <!-- Fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todo</title>
+  </head>
+  <body>
+    <header><h1>To-Do-List</h1></header>
+    <main>
+      <section id="lists">
+        <ul>
+          <li>
+            <input type="checkbox" />
+            <input type="text" class="lists__todo" disabled />
+            <button class="delete">x</button>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <input type="text" class="lists__todo" disabled />
+            <button class="delete">x</button>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <input type="text" class="lists__todo" disabled />
+            <button class="delete">x</button>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <input type="text" class="lists__todo" disabled />
+            <button class="delete">x</button>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <input type="text" class="lists__todo" disabled />
+            <button class="delete">x</button>
+          </li>
+        </ul>
+      </section>
+      <section id="submit">
+        <input type="text" id="write" value="" placeholder="할 일을 입력하세요." />
+        <button id="save">저장</button>
+      </section>
+    </main>
+  </body>
+</html>
