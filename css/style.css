@@ -42,7 +42,7 @@ li {
   border-color: transparent;
 }
 
-.delete {
+.lists__delete {
   background-color: rgb(240, 144, 152);
   border: 0.1rem solid rgb(160, 118, 129);
 }
