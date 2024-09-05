@@ -42,7 +42,7 @@ li {
   border-color: transparent;
 }
 
-.lists__delete {
+.delete__btn {
   background-color: rgb(240, 144, 152);
   border: 0.1rem solid rgb(160, 118, 129);
 }
@@ -59,7 +59,7 @@ li {
   width: 70%;
 }
 
-#save {
+.submit__btn {
   background-color: rgb(100, 138, 219);
   border: 0.1rem solid rgb(54, 94, 182);
 }

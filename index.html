@@ -18,39 +18,39 @@
   <body>
     <header><h1>To-Do-List</h1></header>
     <main>
-      <section id="lists">
-        <ul>
+      <div>
+        <ul id="lists">
           <li>
-            <input type="checkbox" />
+            <input type="checkbox" class="lists__check" disabled="true" />
             <input type="text" class="lists__todo" value="" disabled />
-            <button class="lists__delete" value="delete">x</button>
+            <button class="delete__btn" value="0" disabled="true">x</button>
           </li>
           <li>
-            <input type="checkbox" />
+            <input type="checkbox" class="lists__check" disabled="true" />
             <input type="text" class="lists__todo" value="" disabled />
-            <button class="lists__delete" value="delete">x</button>
+            <button class="delete__btn" value="1" disabled="true">x</button>
           </li>
           <li>
-            <input type="checkbox" />
+            <input type="checkbox" class="lists__check" disabled="true" />
             <input type="text" class="lists__todo" value="" disabled />
-            <button class="lists__delete" value="delete">x</button>
+            <button class="delete__btn" value="2" disabled="true">x</button>
           </li>
           <li>
-            <input type="checkbox" />
+            <input type="checkbox" class="lists__check" disabled="true" />
             <input type="text" class="lists__todo" value="" disabled />
-            <button class="lists__delete" value="delete">x</button>
+            <button class="delete__btn" value="3" disabled="true">x</button>
           </li>
           <li>
-            <input type="checkbox" />
+            <input type="checkbox" class="lists__check" disabled="true" />
             <input type="text" class="lists__todo" value="" disabled />
-            <button class="lists__delete" value="delete">x</button>
+            <button class="delete__btn" value="4" disabled="true">x</button>
           </li>
         </ul>
-      </section>
-      <section id="submit">
+      </div>
+      <div id="submit">
         <input type="text" id="write" value="" placeholder="할 일을 입력하세요." />
-        <button id="create" class="submit__create" value="create">저장</button>
-      </section>
+        <button class="submit__btn">저장</button>
+      </div>
     </main>
   </body>
 </html>
